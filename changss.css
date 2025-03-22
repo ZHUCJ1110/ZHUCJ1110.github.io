@@ -73,7 +73,7 @@ body{
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
 
 }
@@ -95,7 +95,7 @@ body{
   color: #4F5E73;
   border:none;
   border-radius: 20px;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
 }
 #goThrough{
@@ -109,6 +109,83 @@ body{
   color: #4F5E73;
   border:none;
   border-radius: 20px;
+  font-size: 35px;
+  font-weight: 700;
+}
+#eyuPage{
+  display:none;
+  place-items: center;
+  position:relative;
+  width:80vw;
+  height:80vh;
+  padding:30px;
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+}
+#useFire{
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  margin: 10px;
+  width:350px;
+  height: 100px;
+  background-color: #CCDDEA;
+  color: #4F5E73;
+  border:none;
+  border-radius: 20px;
+  font-size: 35px;
+  font-weight: 700;
+}
+#useHands{
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  margin: 10px;
+  width:350px;
+  height: 100px;
+  background-color: #CCDDEA;
+  color: #4F5E73;
+  border:none;
+  border-radius: 20px;
+  font-size: 35px;
+  font-weight: 700;
+}
+#resultPage{
+  display:none;
+  place-items: center;
+  position:relative;
+  width:80vw;
+  height:80vh;
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+}
+#result{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: 700;
+}
+#cheer{
+  width: 250px;
+  height: 100px;
+  background-color: #CCDDEA;
+  color: #4F5E73;
+  border:none;
+  border-radius: 20px;
   font-size: 45px;
   font-weight: 700;
+  position: absolute;
+  top:60%;
+  left:40%;
+  transition: all 0.3s ease;
+}
+#cheer:hover{
+  box-shadow: 0px 20px 10px rgba(198,198,198,0.8);
+  width: 275px;
+  height: 110px;
+  font-size: 47px;
+  background-color: #B6CCDD;
+  transform: translateY(-10px);
 }

@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="changss.css">
 
   </head>
+
   <body>
-    <!-- 游戏介绍 -->
+    
     <div id="introductionPage">
       <div class="titleimage">
       </div>
@@ -18,8 +19,18 @@
     <div id="branchPage">
       <p class="problem">米奇路上碰上一根巨大的树枝横在道路中央，他该怎么做？</p>
       <img src="Mickey.png" alt="characterMickey" class="mickey">
-      <button id="cutThem" onclick="cutBranches()">将它们切成小条</button>
+      <button id="cutThem">将它们切成小条</button>
       <button id="goThrough" onclick="achieveGo()">绕过它们</button>
+    </div>
+    <div id="eyuPage">
+      <p class="problem">米奇刚拿上刚切好的枝条，就迎面爬过来一只鳄鱼，他该怎么做？</p>
+      <img src="Mickey.png" alt="characterMickey" class="mickey">
+      <button id="useFire">使用火柴点燃枝条驱赶鳄鱼</button>
+      <button id="useHands" onclick="dontUseHands()">肉搏吗...？</button>
+    </div>
+    <div id="resultPage">
+      <p id ="result">米奇驱赶走了鳄鱼，同时导航仪也恢复了信号，他终于可以逃出丛林了...</p>
+      <button id="cheer" onclick="congratulation()">好耶！</button>
     </div>
 
 
