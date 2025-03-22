@@ -1,0 +1,114 @@
+body{
+  display: grid;
+  place-items: center;
+  background: linear-gradient(-45deg, #EEF9F0, #E2EFFF, #E4E6FA);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+      }
+}
+#introductionPage{
+  display:grid;
+  place-items: center;
+  width:80vw;
+  height:80vh;
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+}
+.titleimage{
+  top:15px;
+  width: 650px;
+  height: 400px;
+  background: url("biaoti.png")no-repeat;
+  background-size: cover;
+}
+.introduction{
+  font-size:20px;
+  font-weight: 500;
+  }
+#helpHim{
+  display: inline-block;
+  margin: 10px;
+  width: 250px;
+  height: 100px;
+  background-color: #CCDDEA;
+  color: #4F5E73;
+  border:none;
+  border-radius: 20px;
+  font-size: 45px;
+  font-weight: 700;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#helpHim:hover{
+  box-shadow: 0px 20px 10px rgba(198,198,198,0.8);
+  width: 275px;
+  height: 110px;
+  font-size: 47px;
+  background-color: #B6CCDD;
+  transform: translateY(-10px);
+}
+#branchPage{
+  display:none;
+  place-items: center;
+  position:relative;
+  width:80vw;
+  height:80vh;
+  padding:30px;
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+}
+.problem{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 700;
+
+}
+.mickey{
+  position: absolute;
+  left: 25px;
+  bottom:0;
+  width: 250px;
+  height: auto;
+}
+#cutThem{
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  margin: 10px;
+  width:350px;
+  height: 100px;
+  background-color: #CCDDEA;
+  color: #4F5E73;
+  border:none;
+  border-radius: 20px;
+  font-size: 45px;
+  font-weight: 700;
+}
+#goThrough{
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  margin: 10px;
+  width:350px;
+  height: 100px;
+  background-color: #CCDDEA;
+  color: #4F5E73;
+  border:none;
+  border-radius: 20px;
+  font-size: 45px;
+  font-weight: 700;
+}
