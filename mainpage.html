@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>异宝首页——异宠垂直社区</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="mainpagestyle.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+   
+</head>
+<body>
+    <div class="d-flex">
+        <!-- 左侧导航栏 -->
+        <div class="sidebar p-3">
+            <div class="titleGroup d-flex align-items-center mb-4">
+                <div class="bigTitle">
+                    <h4 class="site-title fw-bold" id="siteTitle">异宝首页</h4>
+                </div>
+                <div class="pageicon ms-3">
+                    <img src="images/首页icon.png" alt="首页icon">
+                </div>
+            </div>
+            
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" data-title="异宝首页">
+                        <i class="bi bi-house-door"></i>首页
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="marketpage.html" data-title="宠物商城">
+                        <i class="bi bi-shop"></i>商城
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-title="宠物医疗">
+                        <i class="bi bi-heart-pulse"></i>医疗
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="communitypage.html" data-title="交流社区">
+                        <i class="bi bi-people"></i>社区
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-title="个人中心">
+                        <i class="bi bi-person"></i>我的
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 右侧区域 -->
+        <div class="main-content flex-grow-1">
+            <div class="orange-bar-container"></div>
+            <!--轮播图-->
+            <div  class="carousel-container">
+                <div id="petCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/轮播图兔兔.png" class="rounded d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/轮播图鹦鹉.png" class="rounded d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/轮播图老鼠.png" class="rounded d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/轮播图兔兔.png" class="rounded d-block w-100" alt="...">
+                      </div><div class="carousel-item">
+                        <img src="images/轮播图水族.png" class="rounded d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="carousel-indicators-custom">
+                      <button type="button" data-bs-target="#petCarousel" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#petCarousel" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#petCarousel" data-bs-slide-to="2"></button>
+                      <button type="button" data-bs-target="#petCarousel" data-bs-slide-to="3"></button>
+                      <button type="button" data-bs-target="#petCarousel" data-bs-slide-to="4"></button>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="sciencetitle d-flex align-items-center">
+                <h5 class="today-title">
+                    <i class="bi bi-lightbulb"></i> 今日科普
+                </h5>
+                <h6 class="more-title">
+                    ———每天多了解一点点
+                </h6>
+            </div>
+                    
+            <div class="knowledgecard-container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="knowledge-card">
+                            <img src="images/异宠风.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">免费默默献电色……</h6>
+                                <p class="card-text">了解如何为您的异宠提供最佳护理</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="knowledge-card">
+                            <img src="images/老鼠.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">我家的冷门异宠真火了？</h6>
+                                <p class="card-text">探索最新异宠流行趋势</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="knowledge-card">
+                            <img src="images/蛇.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">水族成为头号异宠</h6>
+                                <p class="card-text">工位摸鱼等场景推动市场发展</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="knowledge-card">
+                            <img src="images/蜜袋鼬.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">年轻人的异宠风</h6>
+                                <p class="card-text">· 巧写双品全品牌蜜袋腰行为解析</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="mainpagescript.js"></script>
+    
+   
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>异宝商城——异宠垂直社区</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="marketpagestyle.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="d-flex">
+        <!-- 左侧导航栏 -->
+        <div class="sidebar p-3">
+            <div class="titleGroup d-flex align-items-center mb-4">
+                <div class="bigTitle">
+                    <h4 class="site-title fw-bold" id="siteTitle">宠物商城</h4>
+                </div>
+                <div class="pageicon ms-3">
+                    <img src="images/商城images/商城.png" alt="商城icon">
+                </div>
+            </div>
+            
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link " href="mainpage.html" data-title="异宝首页">
+                        <i class="bi bi-house-door"></i>首页
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" data-title="宠物商城">
+                        <i class="bi bi-shop"></i>商城
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-title="宠物医疗">
+                        <i class="bi bi-heart-pulse"></i>医疗
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-title="交流社区">
+                        <i class="bi bi-people"></i>社区
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-title="个人中心">
+                        <i class="bi bi-person"></i>我的
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-content flex-grow-1">
+            <img src="images/商城images/商城头图.png" class="img-responsive" alt="商城头图">
+            <div class="shopping-container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="shopping">
+                            <div class="titlearrow">
+                                <h4 class="shopping-title">宠物购买</h4>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none">
+                                    <path d="M0.366127 17.125C0.131697 16.8905 1.44882e-06 16.5725 1.41983e-06 16.2409C1.39084e-06 15.9094 0.131697 15.5913 0.366127 15.3568L6.98495 8.73803L0.366126 2.11921C0.13834 1.88337 0.0122977 1.56749 0.0151468 1.23962C0.0179959 0.911746 0.149508 0.598109 0.381358 0.366259C0.613208 0.134409 0.926846 0.00289632 1.25472 4.71617e-05C1.58259 -0.002802 1.89847 0.12324 2.13431 0.351026L9.63722 7.85394C9.87165 8.08844 10.0033 8.40645 10.0033 8.73803C10.0033 9.06961 9.87165 9.38762 9.63722 9.62212L2.13431 17.125C1.89981 17.3595 1.5818 17.4912 1.25022 17.4912C0.918636 17.4912 0.600627 17.3595 0.366127 17.125Z" fill="#212121"/>
+                                </svg>
+                            </div>                
+                            <img src="images/商城images/黄文件夹.png" class="folders" alt="">
+                            <div class="labelBar">
+                                <div class="words">
+                                    <p class="wordonBrush">同城闪送</p>
+                                    <p class="wordonBrush">在线挑选</p>
+                                    <p class="wordonBrush">售后无忧</p>
+                                </div>
+
+                                <div class="barElements">
+                                    <img src="images/绿色笔刷.svg" alt="">
+                                    <img src="images/绿色笔刷.svg" alt="">
+                                    <img src="images/绿色笔刷.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="shopping">
+                            <div class="titlearrow">
+                                <h4 class="shopping-title">用品购买</h4>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none">
+                                    <path d="M0.366127 17.125C0.131697 16.8905 1.44882e-06 16.5725 1.41983e-06 16.2409C1.39084e-06 15.9094 0.131697 15.5913 0.366127 15.3568L6.98495 8.73803L0.366126 2.11921C0.13834 1.88337 0.0122977 1.56749 0.0151468 1.23962C0.0179959 0.911746 0.149508 0.598109 0.381358 0.366259C0.613208 0.134409 0.926846 0.00289632 1.25472 4.71617e-05C1.58259 -0.002802 1.89847 0.12324 2.13431 0.351026L9.63722 7.85394C9.87165 8.08844 10.0033 8.40645 10.0033 8.73803C10.0033 9.06961 9.87165 9.38762 9.63722 9.62212L2.13431 17.125C1.89981 17.3595 1.5818 17.4912 1.25022 17.4912C0.918636 17.4912 0.600627 17.3595 0.366127 17.125Z" fill="#212121"/>
+                                </svg>
+                            </div>     
+                            <img src="images/商城images/绿文件夹.png" class="folders" alt="">
+                            <div class="labelBar">
+                                <div class="words">
+                                    <p class="wordonBrush">全网比价</p>
+                                    <p class="wordonBrush">人气推荐</p>
+                                    <p class="wordonBrush">源头保障</p>
+                                </div>
+                                <div class="barElements">
+                                    <img src="images/黄色笔刷.svg" alt="">
+                                    <img src="images/黄色笔刷.svg" alt="">
+                                    <img src="images/黄色笔刷.svg" alt="">
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="picture-container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="animalspicture">
+                                <img src="images/商城images/老鼠摊开.jpg" alt="手拿老鼠">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="animalspicture">
+                                <img src="images/商城images/花蜜袋鼯.jpg" alt="手拿花蜜袋鼯">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="animalspicture">
+                                <img src="images/商城images/红脸鹦鹉.jpg" alt="红脸鹦鹉">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="animalspicture">
+                                <img src="images/商城images/白蜜袋鼯.jpg" alt="手拿白蜜袋鼯">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="mainpagescript.js"></script>
+    
+</body>
+</html>
