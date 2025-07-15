@@ -55,18 +55,20 @@ body {
 .sidebar .nav-link.active {
     color: var(--active-color);
     background-color: #ffc700;
+    display: flex;
 }
 
-.sidebar .nav-link i {
-    margin-right: 10px;
-    font-size: 1.2rem;
+.sidebar .nav-link img {
+    width: 1rem;
+    height:1rem;
+    margin-right: 5px;
 }
 
 .main-content {
     height:100vh;
     background: linear-gradient(144deg, #FFF 21.08%, rgba(255, 229, 135, 0.50) 82.13%, rgba(255, 200, 0, 0.60) 99.46%);
     margin-left: 250px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .main-content img {
@@ -143,20 +145,20 @@ body {
     height:auto;  
 }
 
-.picture-container {
-    margin: 1rem auto;
-    width: 82%;
-}
-.animalspicture {
-    background-color: #FFF;
+.img-box {
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;        
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    width: 13rem;
+    overflow: hidden;
 }
 
-.animalspicture img {
-    max-width: 96%;
-    max-height: 96%;
+.img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
