@@ -19,6 +19,7 @@ body {
     margin-top: 32px;
     margin-left: 28px;
 }
+
 .bigTitle {
     display: inline-block;
 }
@@ -38,6 +39,7 @@ body {
     max-height: 80%;
     margin: auto;
 }
+
 .sidebar .nav-link {
     color: #B9F041;
     font-weight: 500;

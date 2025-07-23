@@ -1,0 +1,311 @@
+:root {
+    --active-color: #212121; 
+}
+
+body {
+    font-family: "FZHei-B01S", 'Microsoft YaHei', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    height: 100vh;
+    background: linear-gradient(354deg, #FFF 0%, rgba(185, 240, 65, 0.60) 98.77%);;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 250px;
+}
+
+.titleGroup {
+    margin-top: 32px;
+    margin-left: 28px;
+}
+
+.bigTitle {
+    display: inline-block;
+}
+
+.pageicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px ;
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.pageicon img {
+    width: 36px;
+    height: 34px;
+    margin: auto;
+}
+
+.sidebar .nav-link {
+    color: #B9F041;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 43.5px;
+    margin: 15px 10px;
+    transition: all 0.3s;
+    background-color: #212121;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #4a4a4a;
+}
+
+.sidebar .nav-link.active {
+    color: var(--active-color);
+    background-color: #ffc700;
+    display: flex;
+}
+
+.sidebar .nav-link img {
+    width: 1rem;
+    height:1rem;
+    margin-right: 5px;
+}
+
+.main-content {
+    height:100vh;
+    background: linear-gradient(144deg, #FFF 21.08%, rgba(255, 229, 135, 0.50) 82.13%, rgba(255, 200, 0, 0.60) 99.46%);
+    margin-left: 250px;
+    overflow: hidden;
+}
+
+.function-card {
+    position: relative;
+    margin:2rem 4rem;
+    padding: 16px;
+    width: 91%;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    border: none;
+    border-radius: 1.05rem;
+    outline: none;
+    margin-left: 1rem;
+}
+
+.informationBar {
+    display: flex;
+    height: 230px;
+    margin: 1rem 0;
+}
+
+.journalFolder {
+    position: relative;
+}
+
+.journalFolder img {
+    height: 100%;
+    margin-right: 1rem;
+
+}
+
+#thisYear {
+   font-family: "Fontquan-XinYiGuanHeiTi 2.0", 'Microsoft YaHei', sans-serif ;
+   font-size:40px;
+   position: absolute;
+   left: 50px;
+   top: 0;
+   text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+}
+
+#journal {
+    font-family: "Fontquan-XinYiGuanHeiTi 2.0", 'Microsoft YaHei', sans-serif ;
+    font-size:40px;
+    position: absolute;
+    left: 70px;
+    top: 45px;
+    text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+}
+
+.yellowsquare {
+    width: 230px;
+    height: 100%;
+    border-radius: 1.25rem;
+    background: #fcc500;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleLine {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.arrow-circle {
+    display: inline-flex; 
+    width: 32px;
+    height: 32px; 
+    background-color: #212121;
+    border-radius: 50%; 
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.arrow-circle img {
+    width: 24px; 
+    height: 24px;
+    display: block;
+}
+
+.smalltitle {
+    color: #FFF;
+    font-size: 32px;
+    font-family: "Fontquan-XinYiGuanHeiTi 2.0", 'Microsoft YaHei', sans-serif ;
+    margin-bottom: 8px;
+}
+
+.content {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.blacksquare {
+    width: 350px;
+    height: 100%;
+    border-radius: 1.25rem;
+    background:#212121;
+    padding: 1rem 1.5rem;
+    display: block;
+    margin: 0 1rem;
+}
+
+.blacksquare span {
+    color:#ffc500
+}
+
+.postBox{
+    position: relative;
+}
+
+.postTitle {
+    margin: 3rem 0 0 0;
+    width: 480px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: relative;
+    align-items: center;
+}
+
+.topic {
+    font-family: "Fontquan-XinYiGuanHeiTi 2.0", 'Microsoft YaHei', sans-serif ;
+    font-size: 24px;
+    padding-bottom: 8px;
+    z-index: 1;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.postCard {
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.postCard img {
+    width: 100%;
+    height: 72%;
+    display: block;
+    object-fit: cover;
+}
+
+.whitepart {
+    padding: 0.75rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.whitepart h5 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    color: #212121;
+}
+
+.userinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    z-index: 1000;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.avatar img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-bottom: 1.25rem;
+}
+
+.avatar p {
+    font-size: 12px;
+    color: #969696;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #969696;
+}
+
+.likes img {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 1.25rem;
+}
+
+.publishball {
+    width: 100px;
+    height: auto;
+    z-index: 1000;
+    position: absolute;
+    right:24px;
+    bottom: 8vh;
+}
+
+.publishball img {
+    width: 80% ;
+    height: auto;
+}

@@ -19,6 +19,7 @@ body {
     margin-top: 32px;
     margin-left: 28px;
 }
+
 .bigTitle {
     display: inline-block;
 }
@@ -38,6 +39,7 @@ body {
     max-height: 80%;
     margin: auto;
 }
+
 .sidebar .nav-link {
     color: #B9F041;
     font-weight: 500;
@@ -161,4 +163,18 @@ body {
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.buycar {
+    width: 100px;
+    height: auto;
+    z-index: 1000;
+    position: absolute;
+    right:16px;
+    top: 16px;
+}
+
+.buycar img {
+    width: 80% ;
+    height: auto;
 }

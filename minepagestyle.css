@@ -1,0 +1,110 @@
+:root {
+    --active-color: #212121; 
+}
+
+body {
+    font-family: "FZHei-B01S", 'Microsoft YaHei', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    height: 100vh;
+    background: linear-gradient(354deg, #FFF 0%, rgba(185, 240, 65, 0.60) 98.77%);;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 250px;
+}
+
+.titleGroup {
+    margin-top: 32px;
+    margin-left: 28px;
+}
+
+.bigTitle {
+    display: inline-block;
+}
+
+.pageicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px ;
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.pageicon img {
+    width: 35px;
+    height: 36px;
+    margin: auto;
+}
+
+.sidebar .nav-link {
+    color: #B9F041;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 43.5px;
+    margin: 15px 10px;
+    transition: all 0.3s;
+    background-color: #212121;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #4a4a4a;
+}
+
+.sidebar .nav-link.active {
+    color: var(--active-color);
+    background-color: #ffc700;
+    display: flex;
+}
+
+.sidebar .nav-link img {
+    width: 1rem;
+    height:1rem;
+    margin-right: 5px;
+}
+
+.main-content {
+    height:100vh;
+    background: linear-gradient(144deg, #FFF 21.08%, rgba(255, 229, 135, 0.50) 82.13%, rgba(255, 200, 0, 0.60) 99.46%);
+    margin-left: 250px;
+    overflow: auto;
+    position: relative;
+}
+
+.owner {
+    position: relative;
+}
+
+.owner img {
+    position: absolute;
+    left: -8px;
+    top: 9vh;
+    width: 950px;
+}
+
+.pet {
+    position: relative;
+}
+
+.pet img {
+    position: absolute;
+    right: 0;
+    top:57vh;
+    width: 850px;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    right: 56px;
+    bottom:32px;
+}
+
+.icons img {
+    width: 32px;
+    height: 32px;
+    margin-left: 2rem;
+}
